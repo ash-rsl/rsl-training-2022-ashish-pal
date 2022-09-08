@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:contentDescription="scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="PNG (with Semi transparency):" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            app:srcCompat="@drawable/vaseproject" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="PNG (with full transparency):" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:alpha="0.1"
+            app:srcCompat="@drawable/balconyproject" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="CENTER" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:scaleType="center"
+            app:srcCompat="@drawable/tulipsproject" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="CENTER_Crop" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/tulipsproject" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="CENTER_Inside" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/tulipsproject" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="Fit_Center" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/tulipsproject" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="Fit_End" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/tulipsproject" />
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="Fit_Start" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/tulipsproject" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="Fit_XY" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/tulipsproject" />
+
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="small image (100 px width)" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/tulipsproject" />
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="Large image (1100 px width)" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="1200px"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/tulipsproject" />
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="Medium image (600 px width)" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="650px"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/tulipsproject" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="horizontal rectangular image:" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="1000px"
+            android:layout_height="500px"
+            app:srcCompat="@drawable/tulipsproject"
+            android:scaleType="fitXY"
+            />
+
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="Vertical rectangular image:" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="450px"
+            android:layout_height="1200px"
+            app:srcCompat="@drawable/tulipsproject"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="JPEG Image With different tint color" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="1200px"
+            app:srcCompat="@drawable/tulipsproject"
+            android:scaleType="fitXY"
+            android:tintMode="add"
+            android:tint="#0dd9d5"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="JPEG Image With different tint color" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="1200px"
+            app:srcCompat="@drawable/tulipsproject"
+            android:scaleType="fitXY"
+            android:alpha="0.6"
+
+            android:tintMode="add"
+            android:tint="#660dd9d5"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="PNG Image(Vase) With different tint color" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="match_parent"
+            android:layout_height="1200px"
+            app:srcCompat="@drawable/vaseproject"
+            android:scaleType="fitXY"
+            android:tintMode="add"
+            android:tint="#0dd9d5"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="PNG image(Vase) With different tint color" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="match_parent"
+            android:layout_height="1200px"
+            app:srcCompat="@drawable/vaseproject"
+            android:scaleType="fitXY"
+            android:alpha="0.6"
+
+            android:tintMode="add"
+            android:tint="#660dd9d5"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="PNG image(balcony) With different tint color" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="match_parent"
+            android:layout_height="1200px"
+            app:srcCompat="@drawable/balconyproject"
+            android:scaleType="fitXY"
+
+
+            android:tintMode="add"
+            android:tint="#0dd9d5"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="50dp"
+            android:text="PNG image(balcony) With different tint color" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="match_parent"
+            android:layout_height="1200px"
+            app:srcCompat="@drawable/balconyproject"
+
+            android:scaleType="fitXY"
+
+            android:alpha="0.6"
+            android:tintMode="add"
+            android:tint="#660dd9d5"
+            tools:ignore="UseAppTint" />
+    </LinearLayout>
+
+</ScrollView>
