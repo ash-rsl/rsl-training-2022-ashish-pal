@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:contentDescription="scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/text1View"
+            android:layout_width="600px"
+            android:layout_height="400px"
+            android:text="Width:600px\nHeight:400px:\ntext size:80px\npadding:140px"
+            android:textSize="60px"
+            android:textStyle="bold"
+            android:background="#2F21F3"
+            android:padding="140px"
+            />
+
+
+
+        <TextView
+            android:id="@+id/text2View"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:text="Width:350dp\nHeight:250dp:\ntext size:20dp\npadding left:20dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:background="#CDDC39"
+            android:paddingLeft="60dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/text3View"
+            android:layout_width="350sp"
+            android:layout_height="250sp"
+            android:background="#FF5722"
+            android:paddingLeft="60sp"
+            android:paddingTop="20sp"
+
+
+            android:text="Width:350sp\nHeight:250sp:\ntext size:20sp\npaddingLeft:60sp\npadding top:20sp"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/text4View"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:background="#FFC107"
+            android:text="Gravity:No Gravity"
+
+            android:textSize="20sp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/text5View"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:background="#9C27B0"
+            android:text="Gravity:Centre"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/text6View"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:background="#00BCD4"
+            android:text="Gravity:End"
+            android:gravity="end"
+            android:textSize="20sp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/text7View"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:background="@color/purple_500"
+            android:text="Gravity:center_vertical"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/text8View"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:background="@color/teal_700"
+            android:text="Gravity:Fill Horizontal"
+            android:gravity="fill_horizontal"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/text9View"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#673AB7"
+            android:text="Layout Gravity:Center"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/text10View"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:background="@color/purple_500"
+            android:text="Layout Gravity:end"
+            android:layout_gravity="end"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/text11View"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:background="#FFC107"
+            android:text="Layout Gravity:clip_horizontal"
+            android:layout_gravity="clip_horizontal"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/text12View"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#FFEB3B"
+            android:text="Layout Gravity:clip_vertical"
+            android:layout_gravity="clip_vertical"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
