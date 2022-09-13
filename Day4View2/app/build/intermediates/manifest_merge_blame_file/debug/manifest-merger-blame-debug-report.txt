@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.day4view2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:6:5-52:19
+12        android:allowBackup="true"
+12-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /home/palash/.gradle/caches/transforms-3/0638d9dacb5fd10604e28ec2b4d3c80b/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Day4View2" >
+22-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:14:9-47
+23        <activity
+23-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:16:9-24:20
+24            android:name="com.example.day4view2.TopAchiever"
+24-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:17:13-40
+25            android:parentActivityName="com.example.day4view2.MainActivity" >
+25-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:18:13-55
+26
+27            <!-- The meta-data tag is required if you support API level 15 and lower -->
+28            <meta-data
+28-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:21:13-23:49
+29                android:name="android.support.PARENT_ACTIVITY"
+29-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:22:17-63
+30                android:value=".MainActivity" />
+30-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:23:17-46
+31        </activity>
+32        <activity
+32-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:25:9-33:20
+33            android:name="com.example.day4view2.RelativeLayoutActivity"
+33-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:26:13-51
+34            android:parentActivityName="com.example.day4view2.MainActivity" >
+34-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:27:13-55
+35
+36            <!-- The meta-data tag is required if you support API level 15 and lower -->
+37            <meta-data
+37-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:21:13-23:49
+38                android:name="android.support.PARENT_ACTIVITY"
+38-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:22:17-63
+39                android:value=".MainActivity" />
+39-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:23:17-46
+40        </activity>
+41        <activity
+41-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:34:9-42:20
+42            android:name="com.example.day4view2.LinearLayoutActivity"
+42-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:35:13-49
+43            android:parentActivityName="com.example.day4view2.MainActivity" >
+43-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:36:13-55
+44
+45            <!-- The meta-data tag is required if you support API level 15 and lower -->
+46            <meta-data
+46-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:21:13-23:49
+47                android:name="android.support.PARENT_ACTIVITY"
+47-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:22:17-63
+48                android:value=".MainActivity" />
+48-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:23:17-46
+49        </activity>
+50        <activity
+50-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:43:9-51:20
+51            android:name="com.example.day4view2.MainActivity"
+51-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:44:13-41
+52            android:exported="true" >
+52-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:45:13-36
+53            <intent-filter>
+53-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:46:13-50:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:47:17-69
+54-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:47:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:49:17-77
+56-->/home/palash/AndroidStudioProjects/Day4View2/app/src/main/AndroidManifest.xml:49:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.2.0] /home/palash/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.2.0] /home/palash/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+62            android:authorities="com.example.day4view2.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.2.0] /home/palash/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.2.0] /home/palash/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.2.0] /home/palash/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.2.0] /home/palash/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.2.0] /home/palash/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/palash/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/palash/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/palash/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+70        </provider>
+71    </application>
+72
+73</manifest>
