@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmentAssignment</string>
+    <string name="show_time">Show Time</string>
+    <string name="show_date">show date</string>
+    <string name="show_battery">Show Battery</string>
+    <string name="assignment">Assignment</string>
+</resources>

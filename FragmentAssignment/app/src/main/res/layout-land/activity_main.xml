@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:weightSum="2">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#0396DA">
+
+
+        <Button
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#FF2256"
+            android:text="@string/show_time" />
+
+        <Button
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/time"
+            android:layout_marginTop="40dp"
+            android:text="@string/show_date"
+            android:backgroundTint="#FF2256"/>
+
+        <Button
+            android:id="@+id/battery"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/date"
+            android:layout_marginTop="40dp"
+            android:text="@string/show_battery"
+            android:backgroundTint="#FF2256"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#76FF3B">
+    </FrameLayout>
+
+</LinearLayout>
