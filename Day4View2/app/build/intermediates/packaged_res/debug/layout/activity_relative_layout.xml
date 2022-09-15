@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/root_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/university_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/university"
+            android:scaleType="fitXY" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mumbai University"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="20dp" />
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/pic_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/university_frameLayout">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="37dp"
+            android:src="@drawable/student" />
+
+        <!--TextView for Candidate's Name name-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="clip_vertical"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="91dp"
+            android:layout_toEndOf="@id/image1"
+            android:text="Ablus Potter"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/edittext_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/pic_relativelayout">
+
+        <!--EditText for phone-->
+        <EditText
+            android:id="@+id/phone_editext"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/black"
+            android:background="@drawable/rectangle"
+            android:gravity="bottom"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:paddingLeft="15dp"
+            android:paddingBottom="22dp" />
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/phone_editext"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/rectangle"
+            android:gravity="bottom"
+            android:hint="Date Of birth"
+            android:inputType="date"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:paddingBottom="22dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/button_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/edittext_relative_layout">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginRight="45dp"
+            android:text="Cancel" />
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginRight="107dp"
+            android:text="Submit" />
+
+    </RelativeLayout>
+</RelativeLayout>
