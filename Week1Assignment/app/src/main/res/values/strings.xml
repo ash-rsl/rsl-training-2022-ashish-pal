@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Week1Assignment</string>
+    <string name="submit">Submit</string>
+    <string name="views">Views</string>
+    <string name="views_group">Views Group</string>
+    <string name="logout">Logout</string>
+    <string name="this_is_a_textview">This is a TextView</string>
+    <string name="alpha_numeric_values">Alpha Numeric Values</string>
+    <string name="numeric_values">Numeric Values</string>
+    <string name="first_name">First Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="login">Login</string>
+</resources>
